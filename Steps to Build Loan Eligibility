@@ -4,8 +4,8 @@ Steps to Build Rule Based Model Using Streamlit and Google Colab
 😎 Install Required Libraries: streamlit, pyngrok
 🖥️ Create the Frontend of the App Using Streamlit in an app.py File
 2. Deploying the Application Using Streamlit
-Simple Rule Based Model
 
+Simple Rule Based Model
 Columns: Gender, Marital Status, Monthly Income, Loan Amount
 
 If monthly income > 50000, loan will be approved
@@ -21,9 +21,9 @@ Steps to Build the Loan Eligibility Model Using Machine Learning Model Using Str
 🖥️ Create the Frontend of the App Using Streamlit in an app.py File
 2. Loading the Dataset Using Pandas
 3. Pre-processing the Dataset
-Convert categories into numbers using map function
-Separate dependent (X) and independent variables (Y)
+   Convert categories into numbers using map function
+   Separate dependent (X) and independent variables (Y)
 4. Building the Loan Prediction Model
-Import machine learning model logistics regression (Since binary)
-Save the model into a pickle file to avoid training the model repeatedly
+   Import machine learning model logistics regression (Since binary)
+   Save the model into a pickle file to avoid training the model repeatedly
 5. Deploying the Application Using Streamlit
